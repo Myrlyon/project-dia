@@ -26,7 +26,7 @@ class SidebarFavoriteWidget extends StatelessWidget {
       itemBuilder: (context, index) {
         final item = _items[index];
         return SidebarMainWidget(
-          iconChange: true,
+          iconCanChange: true,
           icon: item['icon'],
           textTitle: item['title'],
         );
